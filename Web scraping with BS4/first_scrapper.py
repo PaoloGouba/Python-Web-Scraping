@@ -88,7 +88,7 @@ if page.status_code == 200:
     #print(quotes_list)    
     
     # the same but faster 
-    quotes_list = [quote.string for quote in quotes]
+    quotes_list = [quote.string for quote in quotes_list]
     print(quotes_list)
     
     
